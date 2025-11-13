@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4faf9;
+  --foreground: #0f172a;
+  --brand: #0aa5a5; /* verde água principal */
+  --brand-soft: #e6f8f7;
+}
+
+body {
+  background: radial-gradient(circle at top left, #e8f7f6 0%, #ffffff 60%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
